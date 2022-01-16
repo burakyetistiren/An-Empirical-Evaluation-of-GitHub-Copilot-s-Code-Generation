@@ -1,0 +1,331 @@
+cd sonarqube_eval
+cd 0
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_0 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 1
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_1 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 2
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_2 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 3
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_3 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 4
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_4 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 5
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_5 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 6
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_6 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 7
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_7 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 8
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_8 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 9
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_9 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 10
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_10 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 11
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_11 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 12
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_12 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 13
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_13 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 14
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_14 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 15
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_15 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 16
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_16 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 17
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_17 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 18
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_18 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 19
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_19 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 20
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_20 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 21
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_21 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 22
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_22 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 23
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_23 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 24
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_24 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 25
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_25 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 26
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_26 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 27
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_27 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 28
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_28 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 29
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_29 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 30
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_30 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 31
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_31 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 32
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_32 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 33
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_33 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 34
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_34 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 35
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_35 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 36
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_36 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 37
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_37 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 38
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_38 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 39
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_39 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 40
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_40 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 41
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_41 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 42
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_42 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 43
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_43 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 44
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_44 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 45
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_45 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 46
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_46 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 47
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_47 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 48
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_48 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 49
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_49 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 50
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_50 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 51
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_51 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 52
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_52 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 53
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_53 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 54
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_54 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 55
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_55 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 56
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_56 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 57
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_57 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 58
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_58 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 59
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_59 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 60
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_60 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 61
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_61 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 62
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_62 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 63
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_63 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 64
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_64 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 65
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_65 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 66
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_66 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 67
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_67 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 68
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_68 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 69
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_69 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 70
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_70 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 71
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_71 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 72
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_72 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 73
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_73 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 74
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_74 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 75
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_75 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 76
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_76 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 77
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_77 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 78
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_78 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 79
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_79 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 80
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_80 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 81
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_81 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 82
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_82 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 83
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_83 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 84
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_84 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 85
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_85 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 86
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_86 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 87
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_87 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 88
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_88 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 89
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_89 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 90
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_90 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 91
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_91 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 92
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_92 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 93
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_93 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 94
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_94 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 95
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_95 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 96
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_96 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 97
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_97 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 98
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_98 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 99
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_99 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 100
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_100 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 101
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_101 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 102
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_102 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 103
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_103 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 104
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_104 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 105
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_105 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 106
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_106 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 107
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_107 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 108
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_108 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 109
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_109 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 110
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_110 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 111
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_111 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 112
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_112 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 113
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_113 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 114
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_114 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 115
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_115 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 116
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_116 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 117
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_117 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 118
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_118 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 119
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_119 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 120
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_120 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 121
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_121 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 122
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_122 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 123
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_123 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 124
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_124 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 125
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_125 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 126
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_126 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 127
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_127 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 128
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_128 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 129
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_129 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 130
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_130 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 131
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_131 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 132
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_132 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 133
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_133 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 134
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_134 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 135
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_135 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 136
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_136 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 137
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_137 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 138
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_138 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 139
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_139 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 140
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_140 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 141
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_141 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 142
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_142 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 143
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_143 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 144
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_144 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 145
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_145 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 146
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_146 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 147
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_147 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 148
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_148 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 149
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_149 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 150
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_150 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 151
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_151 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 152
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_152 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 153
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_153 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 154
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_154 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 155
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_155 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 156
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_156 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 157
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_157 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 158
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_158 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 159
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_159 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 160
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_160 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 161
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_161 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 162
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_162 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 163
+/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \  -Dsonar.projectKey=humaneval_163 \  -Dsonar.sources=. \  -Dsonar.host.url=http://localhost:9000 \  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a 
+cd ..cd 164
+
