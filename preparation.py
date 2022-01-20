@@ -1,5 +1,10 @@
 import json
 import os
+import subprocess, sys
+
+
+TEST_COUNT = 164
+SONAR_TOKEN = "158a78e3dc0f432bfc294b527b3c01f41780ffd8"
 
 # Open HumanEval.jsonl file
 def open_human_eval_jsonl():
@@ -305,29 +310,19 @@ def get_max_sltn_length():
 
     return maxSltnLength
 
-def create_sonarqube_command():
-    with open('sonarqube' + '.txt', 'w') as f:
-        sonarqube = "cd sonarqube_eval"+ "\n\r"
-        sonarqube += "cd " + str(0) + "\n\r"
-        count = 0
-        while True:
-            if count == 164:
-                break
-            sonarqube += "/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \\\r" 
-            sonarqube += "  -Dsonar.projectKey=humaneval_"+ str(count) + " \\\r" 
-            sonarqube += "  -Dsonar.sources=. \\\r" 
-            sonarqube += "  -Dsonar.host.url=http://localhost:9000 \\\r" 
-            sonarqube += "  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a \n\r"
-            sonarqube += "cd ..\r"
-            count += 1
-            sonarqube += "cd " + str(count) + "\n\r"
-        # Write the sonarqube to the file
-        f.write(sonarqube)
-        print("Sonarqube command file created")
+
+def run_sonarqube():
+    for i in range(TEST_COUNT):
+        project_key = "humaneval_" + str(i)
+        py_file_name = "/prompt_" + str(i) + ".py"
+        cmd = "sonar-scanner.bat -D'sonar.projectKey=human_eval" + project_key + "' -D'sonar.sources=sonarqube_eval/" + str(i) + py_file_name + "'"
+        cmd += " -D'sonar.host.url=http://localhost:9000' -D'sonar.login=" + SONAR_TOKEN + "'"
+        subprocess.call(cmd, stdout=sys.stdout)
 
     
 '''
 ------------------ SCRIPT ------------------
+'''
 '''
 delete_json_files()
 
@@ -360,6 +355,8 @@ if(True):
         
     else:
         run_preparations()
-        write_tests()
+        write_stests()
 
-create_sonarqube_command()
+'''
+
+run_sonarqube()
