@@ -5,18 +5,16 @@ import json , requests, pprint
 import os
 from requests.sessions import session
 import subprocess, sys
-
-from preparation import TEST_COUNT
+from decouple import config
 
 url = 'http://localhost:9000/'
-SONAR_TOKEN = '52af95004cfcb0faaa3adc42f8648f7606d94d2a'
 TEST_COUNT = 164
 
 # Authenticate
-def authenticate(url, SONAR_TOKEN):
+def authenticate(url):
     session = requests.Session()
     #authenticate session with token
-    session.auth = (SONAR_TOKEN, '')
+    session.auth = (config("SONAR_TOKEN"), '')
 
     auth = session.post(url + 'api/user_tokens/search')
     response = session.get(url + 'api')
@@ -43,11 +41,11 @@ def create_projects(session):
 
 
 def run_sonarqube():
-    for i in range(TEST_COUNT):
+    for i in range(1, 15):
         project_key = "humaneval_" + str(i)
         py_file_name = "/prompt_" + str(i) + ".py"
         cmd = "sonar-scanner.bat -D'sonar.projectKey=" + project_key + "' -D'sonar.sources=sonarqube_eval/" + str(i) + py_file_name + "'"
-        cmd += " -D'sonar.host.url=http://localhost:9000' -D'sonar.login=" + SONAR_TOKEN + "'"
+        cmd += " -D'sonar.host.url=http://localhost:9000' -D'sonar.login=" + config("SONAR_TOKEN") + "'"
         subprocess.call(cmd, stdout=sys.stdout)
 
 
@@ -146,7 +144,7 @@ def is_in_list(element, list):
 
 
 # Authenticate
-session = authenticate(url, SONAR_TOKEN)
+session = authenticate(url)
 
 if(True):
     #delete_projects(session)

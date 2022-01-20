@@ -3,7 +3,6 @@ import os
 
 
 TEST_COUNT = 164
-SONAR_TOKEN = "52af95004cfcb0faaa3adc42f8648f7606d94d2a"
 
 # Open HumanEval.jsonl file
 def open_human_eval_jsonl():
