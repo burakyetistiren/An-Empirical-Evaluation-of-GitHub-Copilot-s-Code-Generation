@@ -1,10 +1,9 @@
 import json
 import os
-import subprocess, sys
 
 
 TEST_COUNT = 164
-SONAR_TOKEN = "158a78e3dc0f432bfc294b527b3c01f41780ffd8"
+SONAR_TOKEN = "52af95004cfcb0faaa3adc42f8648f7606d94d2a"
 
 # Open HumanEval.jsonl file
 def open_human_eval_jsonl():
@@ -310,15 +309,6 @@ def get_max_sltn_length():
 
     return maxSltnLength
 
-
-def run_sonarqube():
-    for i in range(TEST_COUNT):
-        project_key = "humaneval_" + str(i)
-        py_file_name = "/prompt_" + str(i) + ".py"
-        cmd = "sonar-scanner.bat -D'sonar.projectKey=human_eval" + project_key + "' -D'sonar.sources=sonarqube_eval/" + str(i) + py_file_name + "'"
-        cmd += " -D'sonar.host.url=http://localhost:9000' -D'sonar.login=" + SONAR_TOKEN + "'"
-        subprocess.call(cmd, stdout=sys.stdout)
-
     
 '''
 ------------------ SCRIPT ------------------
@@ -330,7 +320,7 @@ open_human_eval_jsonl()
 
 os.chdir('..')
 
-if (False):
+if (True):
     save_prompt_to_file()
 
 if(True):
@@ -356,7 +346,4 @@ if(True):
     else:
         run_preparations()
         write_stests()
-
 '''
-
-run_sonarqube()
