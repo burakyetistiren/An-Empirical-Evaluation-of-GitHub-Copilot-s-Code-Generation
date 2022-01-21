@@ -1,6 +1,9 @@
 import json
 import os
 
+
+TEST_COUNT = 164
+
 # Open HumanEval.jsonl file
 def open_human_eval_jsonl():
     # Change the current directory to HumanEval
@@ -113,7 +116,7 @@ def delete_folder(name):
 def save_prompt_to_file():
     create_folder('code_generation')
     os.chdir('..')
-    for i in range(0, 164):
+    for i in range(TEST_COUNT):
         os.chdir('HumanEval')
         json_obj = get_json_object(str(i))
         list = create_list(json_obj)
@@ -141,7 +144,7 @@ def run_preparations():
     with open('moss', 'r') as f:
             moss += f.read()
 
-    for i in range(0, 164):
+    for i in range(TEST_COUNT):
         os.chdir('HumanEval')
         json_obj = get_json_object(str(i))
         list = create_list(json_obj)
@@ -204,7 +207,7 @@ def run_preparations():
 
 # write tests scripts for each prompt file
 def write_tests():
-    for i in range(0, 164):
+    for i in range(TEST_COUNT):
         os.chdir('HumanEval')
         json_obj = get_json_object(str(i))
         list = create_list(json_obj)
@@ -213,8 +216,7 @@ def write_tests():
         # open file to append tests
 
         with open('prompt_' + str(i) + '.py', 'a') as f:
-            prompt_to_write = ""
-            prompt_to_write += "try:\r"
+            prompt_to_write = "try:\r"
             prompt_to_write += "    " + "count = test_" + str(i) + "." + "check(" + list["entry_point"] + ")" + "\r"
             prompt_to_write += "    " + "print(str(count))\r"
             prompt_to_write += "except:\r"
@@ -281,7 +283,7 @@ def get_file_length(path, name):
 def get_max_sltn_length():
     maxSltnLength = 0
 
-    for i in range(0, 164):
+    for i in range(TEST_COUNT):
         os.chdir(str(i))
 
         # Get the length of the prompt file
@@ -305,29 +307,10 @@ def get_max_sltn_length():
 
     return maxSltnLength
 
-def create_sonarqube_command():
-    with open('sonarqube' + '.txt', 'w') as f:
-        sonarqube = "cd sonarqube_eval"+ "\n\r"
-        sonarqube += "cd " + str(0) + "\n\r"
-        count = 0
-        while True:
-            if count == 164:
-                break
-            sonarqube += "/Users/burakyetistiren/Desktop/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner \\\r" 
-            sonarqube += "  -Dsonar.projectKey=humaneval_"+ str(count) + " \\\r" 
-            sonarqube += "  -Dsonar.sources=. \\\r" 
-            sonarqube += "  -Dsonar.host.url=http://localhost:9000 \\\r" 
-            sonarqube += "  -Dsonar.login=52af95004cfcb0faaa3adc42f8648f7606d94d2a \n\r"
-            sonarqube += "cd ..\r"
-            count += 1
-            sonarqube += "cd " + str(count) + "\n\r"
-        # Write the sonarqube to the file
-        f.write(sonarqube)
-        print("Sonarqube command file created")
-
     
 '''
 ------------------ SCRIPT ------------------
+'''
 '''
 delete_json_files()
 
@@ -335,7 +318,7 @@ open_human_eval_jsonl()
 
 os.chdir('..')
 
-if (False):
+if (True):
     save_prompt_to_file()
 
 if(True):
@@ -360,6 +343,5 @@ if(True):
         
     else:
         run_preparations()
-        write_tests()
-
-create_sonarqube_command()
+        write_stests()
+'''

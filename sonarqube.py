@@ -4,20 +4,25 @@ from ctypes import resize
 import json , requests, pprint
 import os
 from requests.sessions import session
+import subprocess, sys
+from decouple import config
+
 
 url = 'http://localhost:9000/'
-myToken = '52af95004cfcb0faaa3adc42f8648f7606d94d2a'
+TEST_COUNT = 164
+
 
 # Authenticate
-def authenticate(url, myToken):
+def authenticate(url):
     session = requests.Session()
     #authenticate session with token
-    session.auth = (myToken, '')
+    session.auth = (config("SONAR_TOKEN"), '')
 
     auth = session.post(url + 'api/user_tokens/search')
     response = session.get(url + 'api')
 
     return session
+
 
 # Create a sonarqube project
 def create_project(session, project_name, project_key):
@@ -26,27 +31,30 @@ def create_project(session, project_name, project_key):
 
     return response
 
+
 # create projects
 def create_projects(session):
-    for i in range(0, 164):
-        project_name = "humaneval_"
-        project_name += str(i)
-        project_key = "humaneval_"
-        project_key += str(i)
+    for i in range(TEST_COUNT):
+        project_name = "humaneval_" + str(i)
+        project_key = "humaneval_" + str(i)
         print('SONARQUBE Creating project: ' + project_name)
         create_project(session, project_name, project_key)
+
+
+def run_sonarqube():
+    for i in range(TEST_COUNT):
+        project_key = "humaneval_" + str(i)
+        py_file_name = "/prompt_" + str(i) + ".py"
+        cmd = "sonar-scanner.bat -D'sonar.projectKey=" + project_key + "' -D'sonar.sources=sonarqube_eval/" + str(i) + py_file_name + "'"
+        cmd += " -D'sonar.host.url=http://localhost:9000' -D'sonar.login=" + config("SONAR_TOKEN") + "'"
+        subprocess.call(cmd, stdout=sys.stdout)
+
 
 # Delete a sonarqube project
 def delete_projects(session):
     projects = ""
-    for i in range(0, 164):
-        if i != 163:
-            project = "humaneval_"
-            project += str(i) + ', '
-        else:
-            project += "humaneval_"
-            project += str(i)
-        projects += project
+    for i in range(TEST_COUNT):
+        projects += "humaneval_" + str(i) + ","
         
     obj = {'projects': projects}
     print('SONARQUBE Deleting projects...')
@@ -66,8 +74,7 @@ def save_measures_to_json():
 
     for i in range(0, 164):
         os.chdir(str(i))
-        project_key = "humaneval_"
-        project_key += str(i)
+        project_key = "humaneval_" + str(i)
         measures_response = get_measures(session, project_key)
         measures = json.loads(measures_response.text)
         with open('measures_' + str(i) + '.json', 'w') as outfile:
@@ -131,11 +138,12 @@ def is_in_list(element, list):
 
 
 # Authenticate
-session = authenticate(url, myToken)
+session = authenticate(url)
 
-if(False):
+if(True):
     delete_projects(session)
-    create_projects(session)
+    #create_projects(session)
+    #run_sonarqube()
 else:
     save_measures_to_json()
     extract_all_metrics_to_csv()
