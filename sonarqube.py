@@ -1,6 +1,5 @@
 #response = requests.get('https://sonarqube.com/api/user_tokens/search', auth=('52af95004cfcb0faaa3adc42f8648f7606d94d2a', ''))
 
-from ctypes import resize
 import json , requests, pprint
 import os
 from requests.sessions import session
@@ -47,7 +46,8 @@ def run_sonarqube():
         py_file_name = "/prompt_" + str(i) + ".py"
         cmd = "sonar-scanner.bat -D'sonar.projectKey=" + project_key + "' -D'sonar.sources=code_generation/" + str(i) + py_file_name + "'"
         cmd += " -D'sonar.host.url=http://localhost:9000' -D'sonar.login=" + config("SONAR_TOKEN") + "'"
-        subprocess.call(cmd, stdout=sys.stdout)
+        p = subprocess.Popen(["powershell.exe", cmd], stdout=sys.stdout)
+        p.communicate()
 
 
 # Delete a sonarqube project
@@ -61,6 +61,7 @@ def delete_projects(session):
     response = session.post(url + 'api/projects/bulk_delete', data = obj)
     return response
 
+
 # get measures
 def get_measures(session, project_key):
     obj = {'component': project_key, 'metricKeys': 'code_smells,bugs,security_rating'}
@@ -68,24 +69,26 @@ def get_measures(session, project_key):
 
     return measures_response
 
+
 # save all measures
-def save_measures_to_json():
-    os.chdir('sonarqube_eval')
+def save_measures_to_json(session):
+    os.chdir('experiment-results')
 
     for i in range(TEST_COUNT):
         os.chdir(str(i))
         project_key = "humaneval_" + str(i)
         measures_response = get_measures(session, project_key)
         measures = json.loads(measures_response.text)
-        with open('measures_' + str(i) + '.json', 'w') as outfile:
+        with open('sonar_' + str(i) + '.json', 'w') as outfile:
             json.dump(measures, outfile)
         os.chdir('..')
     os.chdir('..')
-    
+
+
 # Extract metrics for one problem
-def extract_metrics(idx, path):
+def extract_metrics(idx):
     metrics = []
-    with open(path + '/' + 'measures_' + str(idx) + '.json') as json_file:
+    with open('sonar_' + str(idx) + '.json') as json_file:
         data = json.load(json_file)
         metric = []
         print(data)
@@ -98,52 +101,46 @@ def extract_metrics(idx, path):
             metric = []
     return metrics
 
+
 # Save all metrics
 def extract_all_metrics_to_csv():
+    from csv import reader, writer
+
     allMetrics = []
-    os.chdir('sonarqube_eval')
+    os.chdir('experiment-results')
     for i in range(TEST_COUNT):
         os.chdir(str(i))
-        allMetrics.append(extract_metrics(i, os.getcwd()))
+        allMetrics.append(extract_metrics(i))
         os.chdir('..')
     os.chdir('..')
 
-    print(allMetrics)
-    os.chdir('results')
-    with open('metrics.csv', 'w') as outfile:
-        values = [None] * 3
-        outfile.write('id,security_rating,bugs,code_smells\n')
-        for i in range (TEST_COUNT):
-            outfile.write(str(i) + ',')
-            for j in range (0, 3):
-                if allMetrics[i] == []:
-                    break
-                if is_in_list('security_rating', allMetrics[i][j]):
-                    values[0] = allMetrics[i][j]['security_rating']
-                if is_in_list('bugs', allMetrics[i][j]):
-                    values[1] = allMetrics[i][j]['bugs']
-                if is_in_list('code_smells', allMetrics[i][j]):
-                    values[2] = allMetrics[i][j]['code_smells']
-            print(values)
-            outfile.write(str(values[0]) + ',' + str(values[1]) + ',' + str(values[2]) + '\n')
-            values = [None] * 3
-    os.chdir('..')
+    matrix = []
+    with open("results/results.csv", "r") as f:
+        csv_reader = reader(f)
+        for row in csv_reader:
+            if row != []:
+                matrix.append(row)
 
-# Check if element is in list
-def is_in_list(element, list):
-    for i in list:
-        if i == element:
-            return True
-    return False
+    for i in range(TEST_COUNT):
+        for j in range(3):
+            if allMetrics[i] == []:
+                break
+            if 'security_rating' in allMetrics[i][j]:
+                matrix[i+1][7] = allMetrics[i][j]['security_rating']
+            if 'bugs' in allMetrics[i][j]:
+                matrix[i+1][8] = allMetrics[i][j]['bugs']
+            if 'code_smells' in allMetrics[i][j]:
+                matrix[i+1][9] = allMetrics[i][j]['code_smells']
+
+    with open("results/results.csv", "w", newline='') as f:
+        writer = writer(f)
+        writer.writerows(matrix)
 
 
-# Authenticate
-session = authenticate(url)
-
-if(True):
-    delete_projects(session)
+def run_sonarqube_eval():
+    session = authenticate(url)
+    #delete_projects(session)
     #create_projects(session)
     #run_sonarqube()
-else:
-    save_measures_to_json()
+    save_measures_to_json(session)
     extract_all_metrics_to_csv()

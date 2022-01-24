@@ -1,11 +1,12 @@
 import os
 import experiment
+from csv import reader
+
 
 NUMBER_OF_SAMPLES = 164
 
-def calculate_correctness(path):
-    from csv import reader
 
+def calculate_correctness(path):
     # Read the csv file
     matrix = []
     with open(path + "/results/results.csv", "r") as f:
@@ -22,18 +23,14 @@ def calculate_correctness(path):
             correctness += float(matrix[i][2])
     return float(correctness / count)
 
-def calculate_different_correctness_cases(path):
-    from csv import reader
-    from os import chdir
-    from os.path import isfile
 
+def calculate_different_correctness_cases(path):
     # Read the csv file
     matrix = []
     with open(path + "/results/results.csv", "r") as f:
         csv_reader = reader(f)
         for row in csv_reader:
             matrix.append(row)
-
 
     count_correct = 0
     count_incorrect = 0
@@ -53,11 +50,8 @@ def calculate_different_correctness_cases(path):
 
     return results
 
-def calculate_correctness_by_percentage(path):
-    from csv import reader
-    from os import chdir
-    from os.path import isfile
 
+def calculate_correctness_by_percentage(path):
     # Read the csv file
     matrix = []
     with open(path + "/results/results.csv", "r") as f:
@@ -81,6 +75,7 @@ def calculate_correctness_by_percentage(path):
             count_0_25 += 1
     return [count_75_100, count_50_75, count_25_50, count_0_25]
 
+
 def return_percentages_correctness(path):
     scores = calculate_correctness_by_percentage(path)
     scale_ratings = calculate_correctness_with_test_cases(path)
@@ -96,10 +91,10 @@ def return_percentages_correctness(path):
 
     return percentages, percentages_scale_ratings
 
+
 def calculate_correctness_with_test_cases(path):
     results = read_all_exec_results(path)
     test_numbers = experiment.count_test_cases(path)
-
     letter_results = [0,0,0,0,0]
 
     for i in range(0, NUMBER_OF_SAMPLES):
@@ -116,6 +111,7 @@ def calculate_correctness_with_test_cases(path):
                 letter_results[4] += 1
     return letter_results
 
+
 def read_all_exec_results(path):
     results = []
     for i in range(0, NUMBER_OF_SAMPLES):
@@ -124,11 +120,8 @@ def read_all_exec_results(path):
             results.append(content[0])
     return results
 
-def count_invalid(path):
-    from csv import reader
-    from os import chdir
-    from os.path import isfile
 
+def count_invalid(path):
     # Read the csv file
     matrix = []
     with open(path + "/results/results.csv", "r") as f:
@@ -142,6 +135,7 @@ def count_invalid(path):
             count += 1
     return count
 
+
 def calculate_validity(path):
     count = count_invalid(path)
     return float((NUMBER_OF_SAMPLES - count) / NUMBER_OF_SAMPLES)
@@ -150,7 +144,6 @@ def plot_no_of_test_cases(path):
     from matplotlib import pyplot as plt
     #import statistics library
     import statistics
-
 
     x = []
     for i in range(1, NUMBER_OF_SAMPLES + 1):
@@ -179,7 +172,6 @@ def plot_no_of_test_cases(path):
     plt.ylabel("Number of test cases")
     plt.title("Number of test cases")
     plt.show()
-
     
 
 print(calculate_correctness(os.getcwd()))
