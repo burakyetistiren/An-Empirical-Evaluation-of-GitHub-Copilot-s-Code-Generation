@@ -276,5 +276,5 @@ def count_test_cases():
 
 create_exp_code()
 write_to_csv_correctness_validity()
-#write_to_csv_complexity()
+write_to_csv_complexity()
 run_sonarqube_eval()

@@ -125,6 +125,6 @@ def create_csv():
 ------------------ SCRIPT ------------------
 '''
 parse_human_eval_jsonl()
-#save_prompt_for_generation()
+save_prompt_for_generation()
 create_experiment_folders()
 create_csv()
