@@ -45,7 +45,7 @@ def run_sonarqube():
     for i in range(TEST_COUNT):
         project_key = "humaneval_" + str(i)
         py_file_name = "/prompt_" + str(i) + ".py"
-        cmd = "sonar-scanner.bat -D'sonar.projectKey=" + project_key + "' -D'sonar.sources=sonarqube_eval/" + str(i) + py_file_name + "'"
+        cmd = "sonar-scanner.bat -D'sonar.projectKey=" + project_key + "' -D'sonar.sources=code_generation/" + str(i) + py_file_name + "'"
         cmd += " -D'sonar.host.url=http://localhost:9000' -D'sonar.login=" + config("SONAR_TOKEN") + "'"
         subprocess.call(cmd, stdout=sys.stdout)
 
@@ -72,7 +72,7 @@ def get_measures(session, project_key):
 def save_measures_to_json():
     os.chdir('sonarqube_eval')
 
-    for i in range(0, 164):
+    for i in range(TEST_COUNT):
         os.chdir(str(i))
         project_key = "humaneval_" + str(i)
         measures_response = get_measures(session, project_key)
@@ -102,7 +102,7 @@ def extract_metrics(idx, path):
 def extract_all_metrics_to_csv():
     allMetrics = []
     os.chdir('sonarqube_eval')
-    for i in range(0, 164):
+    for i in range(TEST_COUNT):
         os.chdir(str(i))
         allMetrics.append(extract_metrics(i, os.getcwd()))
         os.chdir('..')
@@ -113,7 +113,7 @@ def extract_all_metrics_to_csv():
     with open('metrics.csv', 'w') as outfile:
         values = [None] * 3
         outfile.write('id,security_rating,bugs,code_smells\n')
-        for i in range (0, 164):
+        for i in range (TEST_COUNT):
             outfile.write(str(i) + ',')
             for j in range (0, 3):
                 if allMetrics[i] == []:
