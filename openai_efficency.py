@@ -1,6 +1,7 @@
 import openai
+from decouple import config
 
-openai.api_key = "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"
+openai.api_key = config('OPENAI_API_KEY')
 
 def return_response(given_prompt):
     given_prompt += "Time Complexity:"
@@ -15,5 +16,4 @@ def return_response(given_prompt):
         presence_penalty=0
     )
 
-    #print(response.choices[0].text)
     return response.choices[0].text
