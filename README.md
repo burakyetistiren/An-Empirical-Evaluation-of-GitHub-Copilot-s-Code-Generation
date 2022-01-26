@@ -17,4 +17,5 @@
  --> *python experiment.py*
 ##
 Our result tables can be seen [here](https://github.com/burakyetistiren/An-Empirical-Evaluation-of-GitHub-Copilot-s-Code-Generation/blob/master/misc/Copilot_Results.pdf) (pdf format) and [here](https://github.com/burakyetistiren/An-Empirical-Evaluation-of-GitHub-Copilot-s-Code-Generation/blob/master/misc/Copilot_Results.xlsx) (xlsx format).
+
 The list of the articles on GitHub Copilot we checked can be seen [here](https://github.com/burakyetistiren/An-Empirical-Evaluation-of-GitHub-Copilot-s-Code-Generation/blob/master/misc/article_names_and_links.pdf).
