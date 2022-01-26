@@ -7,7 +7,7 @@ def return_response(given_prompt):
     given_prompt += "Time Complexity:"
 
     response = openai.Completion.create(
-        engine="davinci-codex",
+        engine="code-davinci-001",
         prompt= given_prompt,
         temperature=0,
         max_tokens=64,

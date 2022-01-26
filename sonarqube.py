@@ -139,8 +139,8 @@ def extract_all_metrics_to_csv():
 
 def run_sonarqube_eval():
     session = authenticate(url)
-    #delete_projects(session)
-    #create_projects(session)
-    #run_sonarqube()
+    delete_projects(session)
+    create_projects(session)
+    run_sonarqube()
     save_measures_to_json(session)
     extract_all_metrics_to_csv()
